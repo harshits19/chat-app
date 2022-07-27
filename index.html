@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SeeChat - Real Time Chatting App</title>
+    <link rel="stylesheet" href="public/style.css" />
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="public/client.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="chatBox">
+        <div class="chatHeader">
+            <img src="public/icon.png" alt="logo">
+            <span>SeeChat</span>
+        </div>
+        <div class="chatArea">
+           <!--  <div class="message sent">
+                <span class="userName">Name</span>
+                <p>Hey, Wassup</p>
+            </div>
+            <div class="message newUserJoin">
+                Joined the chatArea
+            </div>
+            <div class="message recieved">
+                <span class="userName">Sender</span>
+                <p>Finw, wbu?</p>
+            </div> -->
+        </div>
+          <div class="inputArea">
+            <form action="#" id="formContainer">
+                <input  autocomplete="off" type="text" id="inputText" placeholder="Message"></>
+                <button class="sendBtn" type="submit">►</button>
+            </form>
+        </div>
+      </div>
+      <footer>Made with ❤ by <b>Harshit Gaur</b></footer>
+    </div>
+    
+  </body>
+</html>
