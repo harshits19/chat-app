@@ -5,5 +5,5 @@ Steps to use:
 2. install node.js
 3. install dependencies like socket.io and nodemon
 4. deploy the node server (index.js) using  
-    $npm nodemon index.js
+    $nodemon index.js
 5. open the index.html in two tabs and proceed further
